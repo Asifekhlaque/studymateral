@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+.main-text{
+    text-align: center;
+}
+.contaner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.box{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(28,28,187,1) 0%, rgba(0,212,255,1) 100%);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Courgette', cursive;
+    transition: 1s;
+    margin: 20px;
+}
+.box:hover{
+    rotate: 5deg;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.btn-sad{
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    background-color: #FF8A00;
+    color: white;
+    
+}
+/* os notes css */
+.box-2{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(31,82,2,1) 0%, rgba(0,255,68,1) 100%);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Courgette', cursive;
+    transition: 1s;
+    margin: 20px;
+}
+.box-2:hover{
+    rotate: 5deg;
+    box-shadow: 10px 10px 5px rgb(112, 214, 122);
+}
+.btn-os{
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    background-color: #FF00C8;
+    color: white;
+}
+
+/* English notes */
+.box-3{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(75,2,113,1) 0%, rgba(255,0,228,1) 100%);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Courgette', cursive;
+    transition: 1s;
+    margin: 20px;
+}
+.box-3:hover{
+    rotate: 5deg;
+    box-shadow: 10px 10px 5px rgb(210, 120, 189);
+}
+.btn-english{
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    background-color: #29D658;
+    color: white;
+}
+/* Maths notes */
+.box-4{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(255,85,0,1) 0%, rgba(255,231,0,1) 100%);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Courgette', cursive;
+    transition: 1s;
+    margin: 20px;
+}
+.box-4:hover{
+    rotate: 5deg;
+    box-shadow: 10px 10px 5px rgb(219, 177, 130);
+}
+.btn-maths{
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    background-color: #00A3FF;
+    color: white;
+}
+/* C language notes */
+.box-5{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(89,1,1,1) 0%, rgba(255,0,0,1) 100%);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Courgette', cursive;
+    transition: 1s;
+    margin: 20px;
+}
+.box-5:hover{
+    rotate: 5deg;
+    box-shadow: 10px 10px 5px rgb(221, 135, 135);
+}
+.btn-c{
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    background-color: #A401FE;
+    color: white;
+}
+/* text to speak */
+.text-speak{
+    text-align: center;
+    background-color: #FF00C8;
+    color: antiquewhite;
+    padding: 5px;
+    margin: 20px;
+}
+/* content of text to speak  */
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 20px #000;
+    padding: 50px;
+    background-color: #15243b;
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+}
+textarea{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 10px ridge #fff;
+    line-height: 1.5;
+    font-family: roboto;
+    font-weight: 600;
+    padding: 15px;
+}
+#btnspeak{
+    padding: 10px 145px;
+    background-color: #00b5ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    display: block;
+}
+.web{
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(89,1,1,1) 0%, rgba(255,0,0,1) 100%);
+    color: white;
+    padding: 20px;
+    width: 300px;
+    font-family: 'Courgette', cursive;
+    transition: 1s;
+    margin: 20px;
+    
+}
+.btn-mat{
+    margin-top: 20px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+    font-family: 'Courgette', cursive;
+    font-size: 16px;
+    background-color: #33343f;
+    color: white;
+}
+#web_1{
+    background: linear-gradient(90deg, rgba(255,2,2,1) 0%, rgba(255,205,0,1) 100%);
+}
+#web_2{
+    background: linear-gradient(90deg, rgba(2,3,255,1) 0%, rgba(0,215,255,1) 100%);
+}
+#web_3{
+    background: linear-gradient(90deg, rgba(255,2,2,1) 0%, rgba(38,0,255,1) 100%);
+}
+#web_4{
+    background: linear-gradient(90deg, rgba(15,158,32,1) 0%, rgba(0,255,68,1) 100%);
+}
+#web_5{
+    background: linear-gradient(90deg, rgba(2,3,255,1) 0%, rgba(0,215,255,1) 100%);
+}
+#web_6{
+    background: linear-gradient(90deg, rgba(2,3,255,1) 0%, rgba(0,215,255,1) 100%);
+}
+#web_7{
+    background: linear-gradient(90deg, rgba(140,15,158,1) 0%, rgba(255,0,249,1) 100%);
+}
+.main-footer{
+    background-color: #15243b;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
