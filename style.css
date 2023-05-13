@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 .main-text{
     text-align: center;
+    font-family: 'Courgette', cursive;
+    margin-top: 10px;
 }
 .contaner{
     display: flex;
@@ -22,7 +24,6 @@
     margin: 20px;
 }
 .box:hover{
-    rotate: 5deg;
     box-shadow: 10px 10px 5px lightblue;
 }
 .btn-sad{
@@ -52,7 +53,6 @@
     margin: 20px;
 }
 .box-2:hover{
-    rotate: 5deg;
     box-shadow: 10px 10px 5px rgb(112, 214, 122);
 }
 .btn-os{
@@ -82,7 +82,6 @@
     margin: 20px;
 }
 .box-3:hover{
-    rotate: 5deg;
     box-shadow: 10px 10px 5px rgb(210, 120, 189);
 }
 .btn-english{
@@ -111,7 +110,6 @@
     margin: 20px;
 }
 .box-4:hover{
-    rotate: 5deg;
     box-shadow: 10px 10px 5px rgb(219, 177, 130);
 }
 .btn-maths{
@@ -140,7 +138,6 @@
     margin: 20px;
 }
 .box-5:hover{
-    rotate: 5deg;
     box-shadow: 10px 10px 5px rgb(221, 135, 135);
 }
 .btn-c{
@@ -192,6 +189,8 @@ textarea{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 900;
     display: block;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 .web{
     border-style: solid;
@@ -222,23 +221,46 @@ textarea{
 #web_1{
     background: linear-gradient(90deg, rgba(255,2,2,1) 0%, rgba(255,205,0,1) 100%);
 }
+#web_1:hover{
+    box-shadow: 10px 10px 5px rgb(210, 120, 120);
+
+}
 #web_2{
     background: linear-gradient(90deg, rgba(2,3,255,1) 0%, rgba(0,215,255,1) 100%);
+}
+#web_2:hover{
+    box-shadow: 10px 10px 5px rgb(120, 135, 210);
 }
 #web_3{
     background: linear-gradient(90deg, rgba(255,2,2,1) 0%, rgba(38,0,255,1) 100%);
 }
+#web_3:hover{
+    box-shadow: 10px 10px 5px rgb(210, 120, 168);
+}
 #web_4{
     background: linear-gradient(90deg, rgba(15,158,32,1) 0%, rgba(0,255,68,1) 100%);
+}
+#web_4:hover{
+    box-shadow: 10px 10px 5px rgb(120, 210, 126);
 }
 #web_5{
     background: linear-gradient(90deg, rgba(2,3,255,1) 0%, rgba(0,215,255,1) 100%);
 }
+#web_5:hover{
+    box-shadow: 10px 10px 5px rgb(126, 120, 210);
+}
 #web_6{
     background: linear-gradient(90deg, rgba(2,3,255,1) 0%, rgba(0,215,255,1) 100%);
 }
+#web_6:hover{
+    box-shadow: 10px 10px 5px rgb(130, 120, 210);
+
+}
 #web_7{
     background: linear-gradient(90deg, rgba(140,15,158,1) 0%, rgba(255,0,249,1) 100%);
+}
+#web_7:hover{
+    box-shadow: 10px 10px 5px rgb(210, 120, 189);
 }
 .main-footer{
     background-color: #15243b;
